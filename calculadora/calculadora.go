@@ -13,7 +13,7 @@ func main() {
 	fmt.Scan(&y)
 
 	fmt.Println("Escolha a operação: ")
-	fmt.Scan(&opecoes)
+	fmt.Scan(&opcoes)
 	fmt.Println("1 - soma")
 	fmt.Println("2 - subtracao")
 	fmt.Println("3 - multiplicacao")
