@@ -33,3 +33,22 @@ func main() {
 	}
 
 }
+
+func soma(x int, y int)int{
+	retunr x + y
+}
+
+func subtracao(x int, y int)int{
+	return x - y
+}
+
+func multiplicacao(x int, y int)int{
+	return x *y
+}
+
+func divisao(x int, y int)int{
+	if y == 0 {
+		fmt.Println("Erro: divisão por zero")
+	}
+	return x / y
+}
